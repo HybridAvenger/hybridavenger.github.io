@@ -1,0 +1,10 @@
+{
+  "mods": [
+    {
+      "name": "Fallout Mod 1",
+      "description": "This is a mod for Fallout that adds new weapons.",
+      "image": "../images/fallout-mod1.jpg",
+      "link": "https://modlink.com/fallout-mod1"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mods": [
+    {
+      "name": "Skyrim Mod 1",
+      "description": "This is a mod for Skyrim that improves graphics.",
+      "image": "../images/skyrim-mod1.jpg",
+      "link": "https://modlink.com/skyrim-mod1"
+    }
+  ]
+}
