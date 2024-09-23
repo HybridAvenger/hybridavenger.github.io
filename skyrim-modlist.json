@@ -8,10 +8,17 @@
     },
  {
       "name": "Unofficial Skyrim Creation Club Content Patches",
-      "description": "This is a bundle of patches to fix the bugs in the Skyrim Creation Club content as well as resolve conflicts between Creation Club mods and the Unofficial Skyrim Special Edition Patch",
+      "description": "This is a bundle of patches to fix the bugs in the Skyrim Creation Club content",
       "image": "https://staticdelivery.nexusmods.com/mods/1704/images/18975/18975-1533087916-257772479.png",
       "link": "https://www.nexusmods.com/skyrimspecialedition/mods/18975"
+    },
+   {
+      "name": "Unofficial Skyrim Modder's Patch - USMP SE",
+      "description": "A large, community compilation of fixes for bugs, inconsistencies, and errors that can come to light from a modded Skyrim and its DLCs",
+      "image": "https://staticdelivery.nexusmods.com/mods/1704/images/49616/49616-1620430439-1827142343.png",
+      "link": "https://www.nexusmods.com/skyrimspecialedition/mods/49616"
     }
+
 
   ]
 }
