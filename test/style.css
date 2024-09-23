@@ -1,0 +1,154 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Section (for index.html) */
+.main-section {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+    color: #fff;
+}
+
+.main-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    background-color: #444;
+    color: #ddd;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background-color: #666;
+}
+
+/* General Styles for the modlist pages */
+.modlist-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.modlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.mod-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.mod-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mod-details {
+    padding: 15px;
+}
+
+.mod-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mod-details p {
+    margin-bottom: 15px;
+}
+
+.mod-link {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mod-link:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .modlist-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #ddd;
+}

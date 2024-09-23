@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod List</title>
+    <style>
+        /* Add your styles here */
+        .mod {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Skyrim and Fallout Mod List</h1>
+    <div id="mod-list"></div>
+
+    <script>
+        fetch('test.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const modList = document.getElementById('mod-list');
+                data.forEach(mod => {
+                    const modContainer = document.createElement('div');
+                    modContainer.classList.add('mod');
+                    modContainer.innerHTML = `
+                        <h3>${mod.name}</h3>
+                        <p>${mod.description}</p>
+                        <img src="${mod.image}" alt="${mod.name}">
+                        <a href="${mod.link}" target="_blank">View Mod</a>
+                    `;
+                    modList.appendChild(modContainer);
+                });
+            })
+            .catch(error => console.error('Error fetching the JSON:', error));
+    </script>
+</body>
+</html>
