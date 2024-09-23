@@ -1,5 +1,5 @@
 // Load the JSON file containing the mod list
-$.getJSON('mods.json', function(mods) {
+$.getJSON('../json/skyrim.json', function(mods) {
   // Add each mod to the mod list
 mods.forEach(function(mod) {
     var modElement = `
