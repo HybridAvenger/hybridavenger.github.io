@@ -14,7 +14,7 @@ function loadModlist(jsonFile) {
           <img src="${mod.image}" alt="${mod.name}">
           <h2>${mod.name}</h2>
           <p>${mod.description}</p>
-          <a href="${mod.link}" target="_blank">Download Mod</a>
+          <a href="${mod.link}" target="_blank">View Mod</a>
         `;
 
         modlistContainer.appendChild(modItem);
