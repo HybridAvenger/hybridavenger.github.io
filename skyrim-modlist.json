@@ -1,10 +1,10 @@
 {
   "mods": [
     {
-      "name": "Skyrim Mod 1",
-      "description": "This is a mod for Skyrim that improves graphics.",
-      "image": "../images/skyrim-mod1.jpg",
-      "link": "https://modlink.com/skyrim-mod1"
+      "name": "Unofficial Skyrim Special Edition Patch - USSEP",
+      "description": "A comprehensive bugfixing mod for The Elder Scrolls V: Skyrim - Special Edition",
+      "image": "https://staticdelivery.nexusmods.com/mods/1704/images/266-0-1477512662.png",
+      "link": "https://www.nexusmods.com/skyrimspecialedition/mods/266"
     }
   ]
 }
