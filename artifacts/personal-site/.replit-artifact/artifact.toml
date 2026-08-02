@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Personal Site"
+description = "A personal website with a PC Specs page showing current and future PC builds, and a Mods page listing links to the user's mods. Simple, clean, and easy to edit."
+version = "1.0.0"
+id = "artifacts/personal-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25158
+
+[services.development]
+run = "pnpm --filter @workspace/personal-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/personal-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/personal-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25158"
+BASE_PATH = "/"
