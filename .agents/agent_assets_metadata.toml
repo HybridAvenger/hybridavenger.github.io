@@ -14,3 +14,10 @@ uri = "file://personal-site-built.zip"
 type = "unspecified"
 title = "personal-site-built.zip"
 description = "Ready-to-use site — unzip and open index.html directly in your browser. Navigation between Specs and Mods works offline."
+
+[[outputs]]
+id = "ltbzak_G40NjWvC0uY4Eo"
+uri = "file://personal-site.html"
+type = "unspecified"
+title = "personal-site.html"
+description = "Single file — double-click to open in any browser, no setup needed."
