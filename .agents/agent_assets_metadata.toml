@@ -7,3 +7,10 @@ uri = "file://personal-site.zip"
 type = "unspecified"
 title = "personal-site.zip"
 description = "All source files for your personal site — src, pages, data files, config."
+
+[[outputs]]
+id = "ADtWZBAQxPkS3feC7YJ9_"
+uri = "file://personal-site-built.zip"
+type = "unspecified"
+title = "personal-site-built.zip"
+description = "Compiled, ready-to-use version of your personal site."
