@@ -1,0 +1,9 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "Tr7IcM6BgqwY_1T_7ZxKE"
+uri = "file://personal-site.zip"
+type = "unspecified"
+title = "personal-site.zip"
+description = "All source files for your personal site — src, pages, data files, config."
