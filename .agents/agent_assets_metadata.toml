@@ -21,3 +21,10 @@ uri = "file://personal-site.html"
 type = "unspecified"
 title = "personal-site.html"
 description = "Single file — double-click to open in any browser, no setup needed."
+
+[[outputs]]
+id = "zdSQXT1pJalAjuYzMkr6p"
+uri = "file://personal-site-ready.zip"
+type = "unspecified"
+title = "personal-site-ready.zip"
+description = "Unzip and open personal-site.html in any browser — no setup needed."
